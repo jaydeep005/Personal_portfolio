@@ -111,16 +111,16 @@ mobileNavLinks.forEach(link => {
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
 // Form submission
-const d = document.querySelector('.primary-button');
+// const d = document.querySelector('.primary-button');
 
-d.addEventListener('click', function(event) {
+// d.addEventListener('click', function(event) {
  
-  // Show success message
-  alert('Thank you for your message! I will get back to you soon.');
+//   // Show success message
+//   // alert('Thank you for your message! I will get back to you soon.');
   
-  // Reset form
-  d.reset();
-});
+//   // Reset form
+//   // d.reset();
+// });
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
